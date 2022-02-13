@@ -4,69 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login to page</title>
-<style>
-body{
-    background-image: url(computer-gdb73f7e64_1920.jpg);
-    background-size: cover;
-    padding-top: 100px;
-    text-align: center;
-        
-}
-button{
-    width: 200px;
-    background-color: rgb(174 177 174);
-    color: black;
-    font-family: cursive;
-    font-size: 18px;
-    border-radius: 180px;
-    
-}
-input{
-    background-color: rgb(210,214,203) ;
-    width: 190px;
-    border: 1px solid;
-    border-radius: 100px;
-    font-family:cursive;
-    font-size: 18px;   
-     
-       
-}
-img{
-   background: linear-gradient(white,black);     
-   border-radius: 180px;
-}
-a{
-color: black;
-} 
-h1{
-    background: linear-gradient(black,white);
-
-    
-    
-} 
-    
-
-
-
-</style>
-
-
+    <title>Formulary</title>
 </head>
-<body> 
-    <div>
-    <h1>Welcome to Diego's Corporation</h1> 
-    </div>
-    <img src="profile2.png" width="230px"><br><br>
-    <input type="text"placeholder="&#xEB12;Username">
-    <br><br>
-    <input type="password" placeholder="&#xf00f;Password" >  
-    <br><br>
-    <button>Iniciar</button><br><br><br>
-    <a target="blank" href="login.html">No Recuerdas Tu Contraseña ?</a><br>
-    <a target="blank" href="login.html">No Recuerdas Tu Usuario ?</a>
+<style>
+    body{
+        background-image: url(get-me-out-g4d88eaf31_1920.jpg);
+        background-size: cover;
+        text-align: center;
+        font-size: 18px;
+    }
+    h1{
+        background:-webkit-linear-gradient(white,black);
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:transparent;
+        color: tomato;
+        font-size: 75px;
+    }
+    h2{
+        color: black;
+        font-family: cursive;        
+    }
+    input{
+        border: 2px,solid;
+        border-radius: 150px;
+        font-family: fantasy;
+        color: gray;
+    }
+    button{
+        background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+        background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+        background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+        background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+        background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+        -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+text-shadow: 3px 2px 1px #9daef5;
+  -webkit-box-shadow: 6px 5px 24px #666666;
+  -moz-box-shadow: 6px 5px 24px #666666;
+  box-shadow: 6px 5px 24px #666666;
+font-family: Arial;
+  color: #fafafa;
+  font-size: 27px;
+  padding: 19px;
+  text-decoration: none;
+
+      
+    }
    
+</style>
+<body>
     
+    <form method="get" action="login.html">
+        
+    <h1>Formulario De Registro</h1>
+    <h2>Ingresa Tus Nombres:</h2>
+    <input type="text" required placeholder="Solo Letras" >
+    <h2>Ingresa Tus Apellidos:</h2>
+    <input type="text" required placeholder="Solo Letras" >
+    <h2>Correo:</h2>
+    <input type="email" required placeholder="@" >
+    <h2>Ingresa tu Documento</h2>
+    <input type="number" required placeholder="Numeros">
+    <h2>Elije tu  color preferido</h2>
+    <input type="color" required>
+    <h2>Elije tu Genero</h2>
+    Masculino
+    <input type="radio" required>    
+    Femenino
+    <input type="radio" required>
+    Prefiero No Decirlo
+    <input type="radio"required>
+    <h2>Numero Celular O Fijo</h2>
+    <input type="number" required placeholder="Solo Numeros">
+
+
+    <h2>selecciona tus gustos</h2>
+    <input type="checkbox">Viajes
+    <input type="checkbox">Comida
+    <input type="checkbox">GYM
+    <input type="checkbox">NADA
+    
+    <H2>Selecciona tu Ciudad</H2>
+    <select>
+        <option value="">Bucaramanga</option>
+        <option value="">Santa Martha</option>
+        <option value="">Bogota</option>
+        <option value="">Cartagena</option>
+        <option value="">Medellin</option>
+        <option value="">Pereira</option>
+        <option value="">Cali</option>
+        <option value="">Choco</option>
+        <option value="">San Andres</option>
+        <option value="">Guajira</option>
+    </select>
+    <h2>Carga Una Imagen:</h2>
+    <input type="file"name="Imagen">
+<br><br>
+<BUtton>
+    ENVIAR ESTE FORMULARIO
+</BUtton>
+</form>    
 </body>
 
 </html>
